@@ -1,0 +1,142 @@
+.chat {
+    display: flex;
+    flex-direction: column;
+    flex: 0.65;
+}
+
+.chat-header {
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    border-bottom: 1px solid #d4d4d4;
+    padding: 20px;
+    align-items: center;
+}
+
+.chat-header-info {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.avatar-inChatHeader {
+    transform: scale(1.7);
+    position: relative;
+    left: 10px;
+}
+
+.chat-header-info > h3 {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 3px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.chat-header-info > p {
+    color: gray;
+    margin-left: 20px;
+}
+
+.chat-body {
+    flex: 1;
+    background: url("./assets/picture1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: scroll;
+    overflow-x: hidden;
+    padding: 30px;
+}
+
+.chat-message {
+    position: relative;
+    font-size: 16px;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.chat-message-timestamp {
+    margin-left: 10px;
+    font-size: xx-small;
+}
+
+.chat-message-username {
+    position: absolute;
+    top: -18px;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.chat-receiver {
+    margin-left: auto;
+    background-color: #fdffd2;
+}
+
+.chat-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    border-top: 1px solid lightgray;
+}
+
+.chat-footer > form {
+    display: flex;
+    flex: 1;
+}
+
+.chat-footer > form > input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 30px;
+    border: 0;
+}
+
+.mic-chat-footer {
+    color: gray;
+}
+
+.user-avatar-chat {
+    transform: scale(4);
+    margin-left: 20px;
+    color: #727272;
+}
+
+.chat-header-icons > i {
+    padding-right: 25px;
+    cursor: pointer;
+}
+
+.chat-header-icons > i:checked {
+    background-color: #727272;
+}
+
+.chatNavbarIcon {
+    display: inline-block;
+    transform: scale(1.6);
+}
+
+.emoji-chatFooter {
+    transform: scale(1.8);
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.chat-send-message {
+    cursor: pointer;
+}
+
+.mic-chatFooter {
+    cursor: pointer;
+}
+
+.mic-chatFooter {
+    transform: scale(2);
+    margin-top: 14px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
