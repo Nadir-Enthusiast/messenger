@@ -1,0 +1,44 @@
+.login-main {
+    width: 100%;
+    background: radial-gradient(rgb(71, 166, 255), rgb(168, 209, 255), rgb(227, 248, 255));
+    text-align: center;
+    color: white;
+}
+
+.login-main > h1,
+.login-main > ul,
+.login-main > p {
+    position: relative;
+    top: 200px;
+}
+
+.login-main > ul > li {
+    list-style: none;
+}
+
+.login-main > button {
+    position: relative;
+    top: 200px;
+}
+
+.login-main > .login-btn {
+    margin: 25px;
+}
+
+.modal-body {
+    display: block;
+}
+
+.modal-header > h5 {
+    color: black;
+    position: relative;
+    left: 150px;
+}
+
+.form-input-container > p {
+    color: black;
+}
+
+.form-input-container > input {
+    margin-bottom: 10px;
+}
