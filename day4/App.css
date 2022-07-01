@@ -1,0 +1,21 @@
+.app-wrapper {
+  display: flex;
+  height: 90vh;
+  margin: 5vh 10vw;
+  border: 1px solid black;
+  background-color: #feffc5;
+  box-shadow: -1px 6px 18px -6px rgb(0,0,0);
+}
+
+.sidebar {
+  position: relative;
+  float: left;
+  flex: 0.35;
+  background-color: #ffffff;
+}
+
+.chat {
+  position: relative;
+  float: right;
+  flex: 0.65;
+}
